@@ -16,7 +16,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.send('service_fb18v9s', 'template_n2rxxv7', values, 'iRHPtssxLav_FkphK')
+    emailjs.send('service_ff0bdf2', 'template_1xskc6m', values, 'itcsh_dJcOVKNzGqz')
       .then(response => {
         console.log('SUCCESS!', response);
         setValues({
